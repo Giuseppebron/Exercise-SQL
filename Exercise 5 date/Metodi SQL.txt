@@ -1,0 +1,30 @@
+ CONCAT(COLUMN1, COLUMN2) AS ALIAS_NAME:
+"somma" le colonne e le trasforma inun unica colonna.
+
+ LOWER(COLUMN):
+aggiorna la colonna trasformado tutti i caratteri in minuscolo.
+
+ UPPER(COLUMN):
+aggiorna la colonna trasformado tutti i caratteri in maiuscolo.
+
+ TRIM(COLUMN)
+toglie eventuali spazzi all'inizio e alla fine.
+
+ LENGTH(COLUMN):
+retituisce il numero di caratteri
+
+ SUBSTRING(COLUMN, START, LENGTH):
+come Lenght ma decidiamo noi da dove e per quanti caratteri prendere il risultato.
+
+ ROUND(COLUMN, DECIMAL_PLACES):
+arrotonda i decimali a nostra scelta.
+
+ DATE_ADD(COLUMN, INTERVAL EXPRESSION UNIT):
+aggiunge il tempo da noi desiderato ad un tempo gia esistente
+
+ DATE_SUB(COLUMN, INTERVAL EXPRESSION UNIT):
+sottrae il tempo da noi desiderato ad un tempo gia esistente
+
+ FORMAT(COLUMN, FORMAT_STRING):
+ci permette di formattare il contenuto di column in diversi modi.
+
