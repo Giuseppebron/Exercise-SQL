@@ -1,0 +1,5 @@
+6 = customer_id
+7 = product_description (ovviamente si dovrebbe mettere l'ID, comunque, non so se e' possibile ma metterei come 
+                         primary key la somma di product_name e product_description)
+8= order_id
+9= product_name (e l'unico campo che non ho usato come primary key nelle altre tabelle)
